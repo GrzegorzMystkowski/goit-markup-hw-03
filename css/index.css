@@ -1,0 +1,144 @@
+body{
+    font-family:"Roboto", sans-serif;
+    background-color: #FFFFFF;
+    color: #212121;
+    
+}
+
+.web-color{
+    color: #2196F3;
+
+}
+.studio{
+    color:#000000;
+
+}
+.webstudio{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+
+.navigation-list {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #212121;
+} 
+.studio-color{
+    color: #FFFFFF;
+}
+
+a:hover {
+    color:#2196F3
+ }
+a{
+    color: #212121;
+    text-decoration: none;
+}
+.main-header{
+    background-color: #2F303A;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+.contact-information{
+    color:rgba(255, 255, 255, 0.6); 
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+}
+.contact-information-header{
+    color:#757575; 
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;}
+.order-the-service{
+    background-color: #2196F3;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    cursor: pointer;
+}
+.description{
+    
+    font-size: 14px;
+    line-height: 24px;
+    color: #757575;
+}
+.team-description{
+    
+    font-size: 16px;
+    line-height: 19px;
+    color: #757575; 
+}
+.header-paragraph{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #212121;
+
+}
+ul{
+    list-style-type: none;
+}
+.header-secondary{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #212121;
+
+}
+ .footer{
+ background-color:  #2F303A;
+
+}
+.address-style{
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 24px;
+}
+.webstudio-footer{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+.our-team{
+   background: #F5F4FA;
+}
+.portfolio-button{
+    background: #F5F4FA;
+    cursor: pointer; 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+}
+  .portfolio-button:hover {
+    background: #2196F3;
+    color: #FFFFFF;
+
+}
+.portfolio-button:focus {
+    background: #2196F3;
+    color: #FFFFFF;
+}
+.projects-header{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px
+
+}
+.names{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+.project-type{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #757575;
+}
