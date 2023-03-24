@@ -17,6 +17,9 @@ body{
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
+    
+    
+  
 }
 
 .navigation-list {
@@ -24,6 +27,11 @@ body{
     font-size: 14px;
     line-height: 16px;
     color: #212121;
+
+    
+   
+
+
 } 
 .studio-color{
     color: #FFFFFF;
@@ -54,7 +62,15 @@ a{
     color:#757575; 
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;}
+    line-height: 16px;
+align-items: end;
+display: inline-flexbox;
+
+
+
+
+
+}
 .order-the-service{
     background-color: #2196F3;
     color: #FFFFFF;
@@ -107,7 +123,9 @@ ul{
     line-height: 31px;
 }
 .our-team{
-   background: #F5F4FA;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
 }
 .portfolio-button{
     background: #F5F4FA;
@@ -141,4 +159,13 @@ ul{
     font-size: 16px;
     line-height: 30px;
     color: #757575;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+
+}
+.navigation-flex{
+    display: flex;
+    
 }
