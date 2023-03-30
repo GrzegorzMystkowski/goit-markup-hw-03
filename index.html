@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>hw2-main page</title>
+        <title>hw3-main page</title>
         <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
@@ -23,54 +23,57 @@
         <header>
             <div class="container">
                 <div class="navigation-list">
+                    <div class="webstudio">
+                        <a href="./index.html">
+                            <span class="web-color">Web</span
+                            ><span class="studio">Studio</span></a
+                        >
+                    </div>
+
                     <nav>
-                        <ul class="navigation-flex container">
-                            <div class="webstudio">
-                                <li>
-                                    <a href="./index.html">
-                                        <span class="web-color">Web</span
-                                        ><span class="studio">Studio</span></a
-                                    >
-                                </li>
-                            </div>
+                        <ul class="nav-header">
                             <li>
-                                <a href="#">Agencja</a>
+                                <a class="link-agency" href="#">Agencja</a>
                             </li>
                             <li>
-                                <a href="portfolio.html"> Portfolio </a>
+                                <a class="link-portfolio" href="portfolio.html">
+                                    Portfolio
+                                </a>
                             </li>
                             <li>
                                 <a href="#">Kontakt</a>
                             </li>
                         </ul>
                     </nav>
+                    <div class="contact-information-header-flex container">
+                        <a
+                            class="contact-information-header email"
+                            href="mailto:info@devstudio.com"
+                        >
+                            info@devstudio.com
+                        </a>
+                        <a
+                            class="contact-information-header tel"
+                            href="tel:+48111111111"
+                        >
+                            +48 111 111 111</a
+                        >
+                    </div>
                 </div>
-                <a
-                    class="contact-information-header container"
-                    href="mailto:info@devstudio.com"
-                >
-                    info@devstudio.com
-                </a>
-                <a
-                    class="contact-information-header container"
-                    href="tel:+48111111111"
-                >
-                    +48 111 111 111</a
-                >
             </div>
         </header>
 
         <main>
+            <div class="main-header">
+                <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+
+                <button class="order-the-service" type="button">
+                    Zamów usługe
+                </button>
+            </div>
+
             <div class="container">
-                <div class="main-header">
-                    <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-
-                    <button class="order-the-service" type="button">
-                        Zamów usługe
-                    </button>
-                </div>
-
-                <ul>
+                <ul class="section-description-flex">
                     <li>
                         <h5 class="header-paragraph">LOREM IPSUM</h5>
                         <p class="description">
