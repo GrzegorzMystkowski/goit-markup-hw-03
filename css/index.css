@@ -3,7 +3,7 @@ body{
     background-color: #FFFFFF;
     color: #212121;
     width:1600px ;
-    
+  height: 2349px;  
 }
 
 .web-color{
@@ -48,15 +48,13 @@ a:hover {
     color:#2196F3
  }
 a{
-    color: #212121;
+    color:unset;
     text-decoration: none;
 }
 .main-header{
     background-color: #2F303A;
     color: #FFFFFF;
-    
     top: 80px;
-
     padding:  200px 452px 280px 452px;
     text-align: center;
 }
@@ -70,22 +68,13 @@ h1{
     font-size: 44px;
     line-height: 60px;
 }
-.contact-information{
-    color:rgba(255, 255, 255, 0.6); 
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    padding-top: 9px;
-    
 
-}
 .contact-information-header{
     color:#757575; 
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
-    
+    letter-spacing: 0.02em;
    
     
 }
@@ -99,9 +88,9 @@ h1{
     cursor: pointer;
     width: 200px;
     height: 50px;
-top: 430px;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
+    top: 430px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 
 }
 .description{
@@ -117,10 +106,7 @@ border-radius: 4px;
 
 .margin{
 margin-right: 0px;
-
 }
-
-
 
 .team-description{
     
@@ -167,6 +153,8 @@ ul{
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
+    padding-bottom: 9px;
+    
 }
 .webstudio-footer{
     font-weight: 700;
@@ -215,9 +203,11 @@ margin-bottom: 50px;
     color: #FFFFFF;
 }
 .projects-header{
+    margin-bottom: 4px;
+    margin-top: 20px;
+    margin-left: 24px;
+    margin-right: 24px;
     letter-spacing: 0.06em;
-    padding:20px 24px 54px 24px ;
-    margin: 0;
     font-weight: 700;
     font-size: 18px;
     line-height: 36px
@@ -272,9 +262,7 @@ padding-right: 46px;
 margin-right: 50px;
 letter-spacing: 0.02em;
 }
-.tel{
-    letter-spacing: 0.02em;
-}
+
 .section-description-flex{
     display: flex;
     padding-top: 94px;
@@ -327,6 +315,7 @@ border-radius: 0px 0px 4px 4px;
     letter-spacing: 0.03em;
     text-align: center;
     
+    
 }
 
 
@@ -341,11 +330,38 @@ border-radius: 0px 0px 4px 4px;
     
     
 }
-.projects-flex{
-  
-    border-bottom: 1px solid #EEEEEE;
-    border-left: 1px solid #EEEEEE;
-    border-right: 1px solid #EEEEEE;
+.projects-style{
+    border: 1px solid #ad1e1e;
+    
+    
     
 }
 
+.portfolio{
+
+    margin-bottom: 94px;
+    margin-left:215px ;
+    margin-right: 215px;
+    padding: 0;
+}
+.tel-footer{
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    padding-bottom: 60px;
+    
+   
+    }
+    .email-footer{
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    padding-bottom: 9px;
+    }
+    .contacts-footer-style{
+        padding-left: 0px;
+    }
