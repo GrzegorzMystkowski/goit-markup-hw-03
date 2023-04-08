@@ -204,7 +204,7 @@ margin-bottom: 50px;
 }
 .projects-header{
     margin-bottom: 4px;
-    margin-top: 20px;
+    margin-top: 0px;
     margin-left: 24px;
     margin-right: 24px;
     letter-spacing: 0.06em;
@@ -329,10 +329,14 @@ border-radius: 0px 0px 4px 4px;
     
     
     
+    
 }
 .projects-style{
-    border: 1px solid #ad1e1e;
+    border-left:  1px solid #EEEEEE;
+    border-right:  1px solid #EEEEEE ;
+    border-bottom: 1px solid #EEEEEE;
     
+
     
     
 }
